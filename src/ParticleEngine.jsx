@@ -2,7 +2,7 @@ import React, { useMemo } from 'react';
 
 const ParticleEngine = () => {
   const particles = useMemo(() => {
-    return Array.from({ length: 35 }).map((_, i) => {
+    return Array.from({ length: 15 }).map((_, i) => {
       // Randomize position, size, animation delay and duration for each particle
       const left = Math.random() * 100 + 'vw';
       const top = Math.random() * 100 + 'vh';
@@ -21,6 +21,7 @@ const ParticleEngine = () => {
             height: size,
             animationDelay,
             animationDuration,
+            willChange: 'transform' /* Forced optimization */
           }}
         />
       );
