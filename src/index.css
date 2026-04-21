@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=SF+Pro+Rounded:wght@400;600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-deep-space: #1F1A2E;
+  --tactile-purple: #813BAF;
+  --tactile-blue: #4C99F2;
+  --tactile-green: #65B375;
+  --tactile-red: #F25959;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-deep-space);
+  color: rgba(255, 255, 255, 0.7);
+  font-family: 'SF Pro Rounded', 'Nunito', sans-serif;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Space Mono', monospace;
+  font-weight: 800;
+  letter-spacing: -0.05em;
+  color: #FFFFFF;
+}
+
+/* Glass Card */
+.glass-card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(25px) saturate(120%);
+  -webkit-backdrop-filter: blur(25px) saturate(120%);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 24px;
+}
+
+/* Tactile Button */
+.tactile-button {
+  background-color: var(--tactile-purple);
+  color: white;
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+  border-radius: 16px;
+  padding: 16px 32px;
+  box-shadow: 0px 8px 0px rgba(0,0,0,0.5);
+  transition: all 0.1s ease-in-out;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+}
+
+.tactile-button:active {
+  transform: translateY(8px);
+  box-shadow: 0px 0px 0px rgba(0,0,0,0.5);
+}
+
+/* Phone Mockup Isometric 3D */
+.isometric-device {
+  transform: perspective(1000px) rotateY(-15deg) rotateX(5deg);
+  transition: transform 0.3s ease;
+  filter: drop-shadow(0 30px 40px rgba(129, 59, 175, 0.4));
+  border-radius: 40px;
+}
+.isometric-device:hover {
+  transform: perspective(1000px) rotateY(-10deg) rotateX(2deg);
+}
+
+/* Particle Engine */
+#particle-engine {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.particle {
+  position: absolute;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(129, 59, 175, 0.4) 0%, rgba(129, 59, 175, 0) 70%);
+  animation: drift-float 20s infinite alternate ease-in-out;
+  mix-blend-mode: screen;
+}
+
+@keyframes drift-float {
+  0% {
+    transform: translate3d(0, 0, 0) scale(0.5);
+  }
+  50% {
+    transform: translate3d(10vw, 15vh, 0) scale(2.0);
+  }
+  100% {
+    transform: translate3d(-10vw, -10vh, 0) scale(1.2);
+  }
+}
