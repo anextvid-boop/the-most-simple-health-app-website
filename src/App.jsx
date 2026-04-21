@@ -29,7 +29,7 @@ function App() {
           <div className="flex-1 flex items-center justify-center z-10 w-full px-4 lg:px-0 mb-10 lg:mb-0">
             {/* Hero Isometric Phone Mockup */}
             <div className="isometric-device relative w-[240px] md:w-[300px] lg:w-[350px] max-w-full aspect-[1/2.16] rounded-[30px] md:rounded-[40px] overflow-hidden border-[6px] md:border-[8px] border-white/10 bg-black shadow-2xl">
-               <img src="/assets/scoreboard_view.webp" alt="Scoreboard View" className="w-full h-full object-cover" width="400" height="864" loading="eager" />
+               <img src="/assets/scoreboard_view.png" alt="Scoreboard View" className="w-full h-full object-cover" width="400" height="864" loading="eager" />
             </div>
           </div>
         </section>
@@ -48,7 +48,7 @@ function App() {
             {/* Hydration Card */}
             <div className="glass-card p-6 md:p-8 flex flex-col gap-6 items-center text-center">
                <div className="w-full aspect-[4/3] rounded-[16px] md:rounded-[24px] overflow-hidden bg-black/50 border border-white/5">
-                 <img src="/assets/hydration_view.webp" alt="Hydration UI Screenshot" className="w-full h-full object-cover opacity-90 hover:opacity-100 transition-opacity" loading="lazy" width="400" height="300" />
+                 <img src="/assets/hydration_view.png" alt="Hydration UI Screenshot" className="w-full h-full object-cover opacity-90 hover:opacity-100 transition-opacity" loading="lazy" width="400" height="300" />
                </div>
                <h3 className="text-xl md:text-2xl font-mono text-[var(--tactile-blue)] uppercase">Hydration</h3>
                <p className="text-base md:text-lg opacity-80 font-sans px-2">Track your liquid intake effortlessly with zero friction.</p>
@@ -57,7 +57,7 @@ function App() {
             {/* Whole Foods Card */}
             <div className="glass-card p-6 md:p-8 flex flex-col gap-6 items-center text-center mt-4 lg:mt-0">
                <div className="w-full aspect-[4/3] rounded-[16px] md:rounded-[24px] overflow-hidden bg-black/50 border border-white/5">
-                 <img src="/assets/wholefoods_view.webp" alt="Whole Foods UI Screenshot" className="w-full h-full object-cover opacity-90 hover:opacity-100 transition-opacity" loading="lazy" width="400" height="300" />
+                 <img src="/assets/wholefoods_view.png" alt="Whole Foods UI Screenshot" className="w-full h-full object-cover opacity-90 hover:opacity-100 transition-opacity" loading="lazy" width="400" height="300" />
                </div>
                <h3 className="text-xl md:text-2xl font-mono text-[var(--tactile-green)] uppercase">Whole Foods</h3>
                <p className="text-base md:text-lg opacity-80 font-sans px-2">Log non-processed food intake and establish raw eating habits.</p>
@@ -66,7 +66,7 @@ function App() {
             {/* Sleep Battle Card */}
             <div className="glass-card p-6 md:p-8 flex flex-col gap-6 items-center text-center mt-4 lg:mt-0">
                <div className="w-full aspect-[4/3] rounded-[16px] md:rounded-[24px] overflow-hidden bg-black/50 border border-white/5">
-                 <img src="/assets/sleep_view.webp" alt="Sleep UI Screenshot" className="w-full h-full object-cover opacity-90 hover:opacity-100 transition-opacity" loading="lazy" width="400" height="300" />
+                 <img src="/assets/sleep_view.png" alt="Sleep UI Screenshot" className="w-full h-full object-cover opacity-90 hover:opacity-100 transition-opacity" loading="lazy" width="400" height="300" />
                </div>
                <h3 className="text-xl md:text-2xl font-mono text-[var(--tactile-purple)] uppercase">Sleep Battle</h3>
                <p className="text-base md:text-lg opacity-80 font-sans px-2">Compete against yourself to achieve the perfect circadian rhythm.</p>
