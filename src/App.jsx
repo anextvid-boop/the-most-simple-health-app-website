@@ -94,8 +94,8 @@ function App() {
         <img src="./assets/logo.svg" alt="Most Simple Health App" className="h-10 md:h-12 opacity-50 filter grayscale" />
         <div className="flex flex-col sm:flex-row gap-6 sm:gap-8 text-xs sm:text-sm font-mono opacity-60 uppercase tracking-wider text-center">
            <a href="mailto:support@mostsimplehealth.com" className="hover:opacity-100 hover:text-white transition-colors py-2 md:py-0">Support</a>
-           <a href="./privacy/" className="hover:opacity-100 hover:text-white transition-colors py-2 md:py-0">Privacy Policy</a>
-           <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" className="hover:opacity-100 hover:text-white transition-colors py-2 md:py-0" target="_blank" rel="noreferrer">EULA</a>
+           <a href="./privacy/" target="_blank" rel="noreferrer" className="hover:opacity-100 hover:text-white transition-colors py-2 md:py-0">Privacy Policy</a>
+           <a href="./eula/" target="_blank" rel="noreferrer" className="hover:opacity-100 hover:text-white transition-colors py-2 md:py-0">EULA</a>
         </div>
         <p className="text-[10px] sm:text-xs font-mono opacity-40 font-mono mt-4 sm:mt-8 text-center px-4">© 2026 Most Simple Health App. All rights reserved.</p>
       </footer>
