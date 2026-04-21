@@ -8,7 +8,7 @@ function App() {
       <ParticleEngine />
       {/* Primary Navbar */}
       <nav className="absolute top-0 left-0 w-full p-6 md:p-8 z-50 flex items-center">
-        <img src="/assets/logo.svg" alt="Most Simple Health App Logo" className="h-[32px] md:h-[48px]" />
+        <img src="./assets/logo.svg" alt="Most Simple Health App Logo" className="h-[32px] md:h-[48px]" />
       </nav>
 
       {/* Main Content Flow */}
@@ -29,7 +29,7 @@ function App() {
           <div className="flex-1 flex items-center justify-center z-10 w-full px-4 lg:px-0 mb-10 lg:mb-0">
             {/* Hero Isometric Phone Mockup */}
             <div className="isometric-device relative w-[240px] md:w-[300px] lg:w-[350px] max-w-full aspect-[1/2.16] rounded-[30px] md:rounded-[40px] overflow-hidden border-[6px] md:border-[8px] border-white/10 bg-black shadow-2xl">
-               <img src="/assets/scoreboard_view.png" alt="Scoreboard View" className="w-full h-full object-cover" width="400" height="864" loading="eager" />
+               <img src="./assets/scoreboard_view.png" alt="Scoreboard View" className="w-full h-full object-cover" width="400" height="864" loading="eager" />
             </div>
           </div>
         </section>
@@ -48,7 +48,7 @@ function App() {
             {/* Hydration Card */}
             <div className="glass-card p-6 md:p-8 flex flex-col gap-6 items-center text-center">
                <div className="w-full aspect-[4/3] rounded-[16px] md:rounded-[24px] overflow-hidden bg-black/50 border border-white/5">
-                 <img src="/assets/hydration_view.png" alt="Hydration UI Screenshot" className="w-full h-full object-cover opacity-90 hover:opacity-100 transition-opacity" loading="lazy" width="400" height="300" />
+                 <img src="./assets/hydration_view.png" alt="Hydration UI Screenshot" className="w-full h-full object-cover opacity-90 hover:opacity-100 transition-opacity" loading="lazy" width="400" height="300" />
                </div>
                <h3 className="text-xl md:text-2xl font-mono text-[var(--tactile-blue)] uppercase">Hydration</h3>
                <p className="text-base md:text-lg opacity-80 font-sans px-2">Track your liquid intake effortlessly with zero friction.</p>
@@ -57,7 +57,7 @@ function App() {
             {/* Whole Foods Card */}
             <div className="glass-card p-6 md:p-8 flex flex-col gap-6 items-center text-center mt-4 lg:mt-0">
                <div className="w-full aspect-[4/3] rounded-[16px] md:rounded-[24px] overflow-hidden bg-black/50 border border-white/5">
-                 <img src="/assets/wholefoods_view.png" alt="Whole Foods UI Screenshot" className="w-full h-full object-cover opacity-90 hover:opacity-100 transition-opacity" loading="lazy" width="400" height="300" />
+                 <img src="./assets/wholefoods_view.png" alt="Whole Foods UI Screenshot" className="w-full h-full object-cover opacity-90 hover:opacity-100 transition-opacity" loading="lazy" width="400" height="300" />
                </div>
                <h3 className="text-xl md:text-2xl font-mono text-[var(--tactile-green)] uppercase">Whole Foods</h3>
                <p className="text-base md:text-lg opacity-80 font-sans px-2">Log non-processed food intake and establish raw eating habits.</p>
@@ -66,7 +66,7 @@ function App() {
             {/* Sleep Battle Card */}
             <div className="glass-card p-6 md:p-8 flex flex-col gap-6 items-center text-center mt-4 lg:mt-0">
                <div className="w-full aspect-[4/3] rounded-[16px] md:rounded-[24px] overflow-hidden bg-black/50 border border-white/5">
-                 <img src="/assets/sleep_view.png" alt="Sleep UI Screenshot" className="w-full h-full object-cover opacity-90 hover:opacity-100 transition-opacity" loading="lazy" width="400" height="300" />
+                 <img src="./assets/sleep_view.png" alt="Sleep UI Screenshot" className="w-full h-full object-cover opacity-90 hover:opacity-100 transition-opacity" loading="lazy" width="400" height="300" />
                </div>
                <h3 className="text-xl md:text-2xl font-mono text-[var(--tactile-purple)] uppercase">Sleep Battle</h3>
                <p className="text-base md:text-lg opacity-80 font-sans px-2">Compete against yourself to achieve the perfect circadian rhythm.</p>
@@ -91,10 +91,10 @@ function App() {
 
       {/* 3.1.4 Global Footer */}
       <footer className="w-full mt-10 md:mt-24 py-12 md:py-16 px-4 md:px-6 glass-card rounded-t-[30px] md:rounded-t-[40px] rounded-b-none border-b-0 flex flex-col items-center gap-8 z-20 relative px-safe bottom-0 pb-28 lg:pb-16">
-        <img src="/assets/logo.svg" alt="Most Simple Health App" className="h-10 md:h-12 opacity-50 filter grayscale" />
+        <img src="./assets/logo.svg" alt="Most Simple Health App" className="h-10 md:h-12 opacity-50 filter grayscale" />
         <div className="flex flex-col sm:flex-row gap-6 sm:gap-8 text-xs sm:text-sm font-mono opacity-60 uppercase tracking-wider text-center">
            <a href="mailto:support@mostsimplehealth.com" className="hover:opacity-100 hover:text-white transition-colors py-2 md:py-0">Support</a>
-           <a href="/privacy" className="hover:opacity-100 hover:text-white transition-colors py-2 md:py-0">Privacy Policy</a>
+           <a href="./privacy/" className="hover:opacity-100 hover:text-white transition-colors py-2 md:py-0">Privacy Policy</a>
            <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" className="hover:opacity-100 hover:text-white transition-colors py-2 md:py-0" target="_blank" rel="noreferrer">EULA</a>
         </div>
         <p className="text-[10px] sm:text-xs font-mono opacity-40 font-mono mt-4 sm:mt-8 text-center px-4">© 2026 Most Simple Health App. All rights reserved.</p>
